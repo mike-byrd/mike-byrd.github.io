@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  height: 100%;
+  font-family: Lato, sans-serif;
+  background-color: #ebebeb
+}
+
+#top-bar-container {
+  height: 4em;
+  background-color: #121212;
+}
+
+#home-btn {
+  float: left;
+  width: 50%;
+  color: #A9A9A9;
+  text-transform: uppercase;  
+  font-weight: bold;   
+}
+
+#main-nav-container {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#main-nav-container li {  
+  flex-grow: 1;
+  cursor: pointer;
+  font-size: .675em;  
+  text-align: center;  
+  align-items: center;
+  color: #A9A9A9;
+  height: 100%;
+}
+
+#main-nav-container li:hover {
+  background-color: #303030;
+}
