@@ -10,6 +10,42 @@ body {
   background-color: #ebebeb
 }
 
+#social-bar {
+  height: 2.25em;
+  width: 100%;  
+  background-color: #434343;
+}
+
+#social-bar ul {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: .4em 0 0em .4em;
+}
+
+#social-bar li {
+  width: 2em;
+  height: 2em;
+  margin: .1em .1em;
+  background-size: 2em;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+#btn-social-facebook {
+  background-image: url('../images/icons/Facebook.png');  
+}
+
+#btn-social-twitter {
+  background-image: url('../images/icons/Twitter.png');  
+}
+
+#btn-social-linkedin {
+  background-image: url('../images/icons/Linkedin.png');  
+}
+
 #top-bar-container {
   height: 4em;
   background-color: #121212;
