@@ -8,7 +8,7 @@
   <body>
      <div id="main-container">
       <div id="social-bar">
-        <ul>
+        <ul id="social-buttons-container">
           <li id="btn-social-facebook"></li>
           <li id="btn-social-twitter"></li>
           <li id="btn-social-linkedin"></li>          
@@ -17,17 +17,25 @@
        <div id="top-bar-container">
         <div id="home-btn"><h1>Mike Byrd</h1></div>
         <ul id="main-nav-container">
-           <li><h1>About</h1></li>
+           <li class="active"><h1>About</h1></li>
            <li><h1>Portfolio</h1></li>
            <li><h1>Contact</h1></li>
          </ul>
        </div>
+       <div id="background-banner-container">
+         <div id="background-banner-image"></div>
+       </div>
+       <p id="about-description">
+         A local Baltimore Indie Game Developer with a passion for everything that has to do with video games as an art and a hobby. With 5+ years of experience in game design and programming, and 2+ years of experience in the gaming industry, I have learned so much about this particular form of expression. I started programming in AS3, and that happens to be one of my strongest languages next to C# and C++. I have developed several games over the past few years, and even my own game engine in AS3. I continue to make desktop and mobile games in both 2D and 3D on a daily basis. I'm always looking to learn new technologies and techniques to become a better game developer each day.
+       </p>
      </div>      
       
     <!-- Scripts -->
     <script src="js/libs/jquery-3.2.1.min.js"></script>
     <script src="js/libs/lodash-4.17.4.min.js"></script>
+    <script src="js/utils/utils.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/socialBar.js"></script>
   </body>
     
 </html>

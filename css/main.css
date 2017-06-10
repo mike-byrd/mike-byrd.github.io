@@ -7,7 +7,27 @@ body {
   font-size: 16px;
   height: 100%;
   font-family: Lato, sans-serif;
-  background-color: #ebebeb
+  background-color: #ebebeb;  
+}
+
+p {
+  color: #454545;
+}
+
+#home-btn {
+  float: left;  
+  width: auto;
+  height: 100%;
+  color: #A9A9A9;
+  text-transform: uppercase;  
+  font-weight: bold;  
+  margin-left: 4em;
+}
+
+#home-btn h1{
+  margin: .4em 0 0 .4em;
+  width: auto;
+  cursor: pointer;
 }
 
 #social-bar {
@@ -22,7 +42,7 @@ body {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  margin: .4em 0 0em .4em;
+  margin: .4em 0 0em 4.7em;
 }
 
 #social-bar li {
@@ -51,46 +71,60 @@ body {
   background-color: #121212;
 }
 
-#home-btn {
-  float: left;  
-  width: 50%;
-  height: 100%;
-  color: #A9A9A9;
-  text-transform: uppercase;  
-  font-weight: bold;  
-}
-
-#home-btn h1{
-  margin: .4em 0 0 .4em;
-  width: 6em;
-  cursor: pointer;
-}
-
 #main-nav-container {
+  float: right;
   display: flex;
   list-style-type: none;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100%;
+  max-width: 30em;
 }
 
-#main-nav-container li {  
-  flex-grow: 1;
+#main-nav-container li {
   cursor: pointer;
   font-size: .675em;  
   text-align: center;  
   align-items: center;
   color: #A9A9A9;
-  height: 100%;  
-  
-}
-
-#main-nav-container li h1 {
-  margin-top: .85em;
+  height: 100%;
+  margin: 0 .5em;
+  width: 10em;
 }
 
 #main-nav-container li:hover {
   background-color: #303030;
-  border-radius: 1em;
+  border-radius: .5em;
+}
+
+#main-nav-container li.active {
+  background-color: #303030;
+  border-radius: .5em;
+}
+
+#main-nav-container li h1 {
+  margin-top: .85em;
+  font-size: 2em;
+}
+
+#background-banner-container {
+  width: 100%;
+  background-color: #121212;
+}
+
+#background-banner-image {
+  background-image: url('../images/byrdman_bio.jpg');
+  width: 53.1875em;
+  height: 19.6875em;
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 50%;
+  min-width: 53.1875em;
+  background-size: cover;
+}
+
+#about-description {
+  padding: 3em 2em 2em 2em;
+  
 }
